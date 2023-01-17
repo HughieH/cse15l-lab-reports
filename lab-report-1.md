@@ -15,7 +15,25 @@ This lab report details the steps required to remotely access a server using SSH
 * Please go to this link and once again follow the instructions: https://gitforwindows.org/
 * To use Bash in VsCode, you will have to open an integrated Bash CLI in VsCode. Please follow these instructions here: https://stackoverflow.com/a/50527994
 * You shold see something like this in your VsCode terminal if everything is done correctly!
+* To remotely connect to the server, you will have to use the SSH command in bash with your UCSD provided address. For example, my address is *cs15lwi23akz@ieng6.ucsd.edu*.
+
+<ins>Using Git bash</ins>
 
 ![image](https://github.com/HughieH/cse15l-lab-reports/blob/main/images/Bash%20example.png)
 
+<ins>Using the ssh command with login details</ins>
+
+![image](https://github.com/HughieH/cse15l-lab-reports/blob/main/images/Bash%20example%202.png)
+
 **3) Some example terminal commands you can use on the CLI:**
+* Once you have connected to your remote server, you are now ready to run some terminal commands!
+* Some commands you can try include:
+ 1) *ls* --> List files in crrent directory
+ 2) *cd* --> Change directory
+ 3) *pwd* --> Print working directory
+ 4) *cat* --> Concatenate files
+* To exit your server, you can use the command **Ctrl-D**.
+ 
+ <ins>Some example commands in my own server</ins>
+ 
+ ![image](https://github.com/HughieH/cse15l-lab-reports/blob/main/images/Bash%20example%203.png)
