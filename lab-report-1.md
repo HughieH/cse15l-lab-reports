@@ -8,7 +8,7 @@ This lab report details the steps required to remotely access a server using SSH
 * Go to the link https://code.visualstudio.com/ and follow the installation instructions depending on your OS (Windows, Mac, Linux).
 * You should see something like this once have followed the installation instructions and opened VSCode. 
 
- ![image](https://github.com/HughieH/cse15l-lab-reports/blob/main/images/VSCode%20Install.png) 
+ ![image](https://github.com/HughieH/cse15l-lab-reports/blob/6643b4066d6e7398d99d41b507c1656039d88c92/images/VSCode%20Install.png) 
 
 **2) Remotely connecting to the server using Git Bash:**
 * To access to your UCSD provided remote server (your **ieng6** account), you will have to install git on your local computer and ultilize the GIT Bash command line interface. We will be doing this in VsCode instead of opening GIT Bash as a standalone window. 
@@ -19,11 +19,11 @@ This lab report details the steps required to remotely access a server using SSH
 
 <ins>Using Git bash</ins>
 
-![image](https://github.com/HughieH/cse15l-lab-reports/blob/main/images/Bash%20example.png)
+![image](images/Bash example.png)
 
 <ins>Using the ssh command with login details</ins>
 
-![image](https://github.com/HughieH/cse15l-lab-reports/blob/main/images/Bash%20example%202.png)
+![image](images/Bash example 2.png)
 
 **3) Some example terminal commands you can use on the CLI:**
 * Once you have connected to your remote server, you are now ready to run some terminal commands!
@@ -36,4 +36,4 @@ This lab report details the steps required to remotely access a server using SSH
  
  <ins>Some example commands in my own server</ins>
  
- ![image](https://github.com/HughieH/cse15l-lab-reports/blob/main/images/Bash%20example%203.png)
+ ![image](images/Bash example 3.png)
