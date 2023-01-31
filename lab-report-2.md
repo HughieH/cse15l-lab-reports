@@ -31,7 +31,7 @@ is executed. This is because the field "input" is no longer an empty string.
 
 For the file ArrayTests.java:
 
-**Failure inducing input code:*
+**Failure inducing input code:**
 ```
   @Test
   public void testReverseInPlace2() {
@@ -55,3 +55,9 @@ For the file ArrayTests.java:
 
 The symptom for the failure inducing output was that at index 3, the value of 2 was expected but instead the value of 4 was outputted.
 
+## Part 3 - What I learned from Week 2 and Week 3
+
+One thing I found interesting was the deployment of web servers on a computer that was not operated locally by me. I learnt about the process of remotely
+accessing a machine over a network via the use of SSH in Git Bash. This allows me to directly interact with and issue commands on a remote computer and do
+things like hosting a web server that processes requests and sends a response on a specific URL path. I believe this is one of the fundamental aspects
+of how modern web applications work over the internet.
