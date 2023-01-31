@@ -26,3 +26,32 @@ onto the input. If the request for add-message is valid, the "input" field is up
 consecutively with the values of "bye", "try", and "pie". These are concatenated with a newline onto the existing field "input". As in example 1, the only arguments 
 used for the "handleRequest" method is just the path URL. Instead of the initial if conditional being executed, the code defined in the else part of the conditional 
 is executed. This is because the field "input" is no longer an empty string.
+
+## Part 2 - JUnit bug testing
+
+For the file ArrayTests.java:
+
+**Failure inducing input code:*
+```
+  @Test
+  public void testReverseInPlace2() {
+    int[] input1 = {1, 2, 3, 4, 5};
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{5, 4, 3, 2, 1}, input1);
+  }
+```
+> Output was [5, 4, 3, 4, 5]
+
+**Input that doesn't induce failure:**
+```
+> @Test 
+	public void testReverseInPlace() {
+    int[] input1 = { 3 };
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{ 3 }, input1);
+	}
+```
+> Output was [3]
+
+The symptom for the failure inducing output was that at index 3, the value of 2 was expected but instead the value of 4 was outputted.
+
