@@ -31,7 +31,7 @@
 
 *Keys I pressed: `<type in "nano ListExamples.java"> <down> ~till we reach the 3rd while loop with the bug <down> <down> <right> ~till the end of the line with "index += 1" <change variable from "index1" to "index2"> <ctrl+x> <y> <enter>`*
 
-![image](images/Report4_4.png)
+![image](images/Report4_4a.png)
 
 ![image](images/Report4_5.png)
 
@@ -39,5 +39,16 @@
 
 **Step 8) Run the tests, demonstrating that they now succeed**
 
+*Keys I pressed: `<type out "javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java"> <type out "java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests"> <enter>`*
+
+![image](images/Report4_6.png)
+
+> Now that we have corrected the bug, we can run our JUnit tests again to see if the bug was corrected. To do this, we simply repeat the same steps we did in step 6 to run and test our files using JUnit. Once the same steps are completed, we see that "OK (2 Tests)" is printed onto the console.
 
 **Step 9) Commit and push the resulting change to your Github account**
+
+*Keys I pressed: `<type in "git add -A"> <type in "git commit -m"> <"any message you want to be commited"> <enter>`*
+
+![image](images/Report4_7.png)
+
+> To commit and push the changed files, we first have to ultilze the "git add" command to add our updated files to out local git directory. Then we commit these changes using the "git commit" command with a message tag. To push our updated code to our online forked repo, we simple use the "git push" command. Now our lab7 code is corrected and updated on our online GitHub repo!
